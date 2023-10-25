@@ -16,19 +16,14 @@ const Navbar = () => (
     <div
       className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
     >
-      <img
-        src="/search.svg"
-        alt="search"
-        className="w-[24px] h-[24px] object-contain"
-      />
       <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
-        METAVERSUS
+        D-w
       </h2>
-      <img
-        src="/menu.svg"
-        alt="menu"
-        className="w-[24px] h-[24px] object-contain"
-      />
+        <button type="button" className='flex items-center py-2 px-6 bg-[#25618b] rounded-[32px]' >
+          <a href="tel: +998941940745" className="font-normal text-[16px] text-[#fff]">
+            +998 (94) 194-07-45
+          </a>
+        </button>
     </div>
   </motion.nav>
 );
