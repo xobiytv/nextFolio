@@ -19,11 +19,11 @@ const Navbar = () => (
       <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
         D-w
       </h2>
-        <button type="button" className='flex items-center py-2 px-6 bg-[#25618b] rounded-[32px]' >
-          <a href="tel: +998941940745" className="font-normal text-[16px] text-[#fff]">
-            +998 (94) 194-07-45
-          </a>
-        </button>
+      <img
+        src="/menu.svg"
+        alt="menu"
+        className="w-[24px] h-[24px] object-contain"
+      />
     </div>
   </motion.nav>
 );
